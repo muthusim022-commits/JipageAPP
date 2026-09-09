@@ -1,8 +1,8 @@
 # JipageApp
-<<<<<<< HEAD
-# JipageAPP
 =======
-📱 JipageApp — Intelligent Financial Visibility for Individuals & MSMEsJipageApp (derived from the Swahili concept of being financially conscious and vigilant) is a full-stack, cloud-scalable tracking platform designed to give users real-time control over personal and small-to-medium enterprise finances.
+📱 JipageApp — Intelligent Financial Visibility for Individuals & MSMEs
+
+JipageApp (derived from the Swahili concept of being financially conscious and vigilant) is a full-stack, cloud-scalable tracking platform designed to give users real-time control over personal and small-to-medium enterprise finances.
 
 🚀 Key Features & Capabilities
 
