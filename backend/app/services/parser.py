@@ -13,7 +13,7 @@ class MpesaSmsParser:
         sender_upper = sender_header.strip().upper()
         
         # 1. Broad Flexible Floating Amount Extractor Matrix
-        amount_pattern = r"(?:KSh|Ksh|KES|Ksh\.)\s?([\d,]+bt(?:\.\d{2})?)"
+        amount_pattern = r"(?:KSh|Ksh|KES|Ksh\.)\s?([\d,]+(?:\.\d{2})?)"
         amount_match = re.search(r"(?:KSh|Ksh|KES|Ksh\.)\s?([\d,]+(?:\.\d{2})?)", text_clean)
         amount = float(amount_match.group(1).replace(",", "")) if amount_match else 0.0
 
